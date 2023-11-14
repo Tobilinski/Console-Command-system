@@ -33,7 +33,7 @@ public class Console : MonoBehaviour
         }
         
         //Example use case: Loading a level via Command.
-        //Beischpiel für die Verwendung laden eines Levels über Befehl.
+        //Beischpiel für die Verwendung von laden eines Levels über Befehl.
         switch (command)
         {
             //Command Name: LoadLevel_2
