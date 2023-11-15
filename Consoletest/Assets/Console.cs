@@ -36,9 +36,17 @@ public class Console : MonoBehaviour
         //Beischpiel für die Verwendung von laden eines Levels über Befehl.
         switch (command)
         {
+            //Command Name: LoadLevel_1
+            case "LoadLevel_1":
+                SceneManager.LoadScene("test");
+                break;
             //Command Name: LoadLevel_2
             case "LoadLevel_2":
                 SceneManager.LoadScene("Scene2");
+                break;
+            //Command Name: LoadLevel_3
+            case "LoadLevel_3":
+                SceneManager.LoadScene("Scene3");
                 break;
         }
     }
