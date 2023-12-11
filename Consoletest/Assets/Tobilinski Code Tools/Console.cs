@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
 // This script is used to create a console for the game.
 // Dieses Skript wird verwendet um eine Konsole für das Spiel zu erstellen.
 
@@ -13,19 +12,14 @@ using UnityEngine.UI;
 // Die Konsole kann geschlossen werden indem die Backquote Taste erneut gedrückt wird.
 
 // Requirements:
-    // Canvas with an empty GameObject, InputField and a Text element.
-    // Empty GameObject in the Canvas must be named "ConsoleParent".
-    // InputField in UI must be named "Console".
-    // Text element in UI must be named "Output".
-    // Attach teh script anywhere in the scene.
+    // Drag both prefects into the canvas
+
 
 // Anforderungen:
-    // Canvas mit einem leeren GameObject, InputField und einem Text Element.
-    // Leeres GameObject im Canvas muss "ConsoleParent" heißen.
-    // InputField im UI muss "Console" heißen.
-    // Text Element im UI muss "Output" heißen.
-    // Script irgendwo in der Szene anhängen.
-public class Console : MonoBehaviour
+    // Füge beide prefabs in das canvas rein.
+namespace Tobilinski_Code_Tools
+{
+    public class Console : MonoBehaviour
 {
     private InputField _inputField;
     private Text _consoleText;
@@ -162,3 +156,5 @@ public class Console : MonoBehaviour
         }
     }
 }
+}
+
