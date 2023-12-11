@@ -13,10 +13,16 @@ using UnityEngine.UI;
 
 // Requirements:
     // Drag both prefects into the canvas
+    // Attach the console script to anywhere in the each scene used
+    // Enter your own PASSWORD into the console script in the inspector
+
 
 
 // Anforderungen:
     // Füge beide prefabs in das canvas rein.
+    // Füge das “Console” Skript irgendwo in allen Szenen, die benutzt werden.
+    // Füge dein eigenes PASSWORT in unity inspector auf der “Console” Skript ein.
+
 namespace Tobilinski_Code_Tools
 {
     public class Console : MonoBehaviour
